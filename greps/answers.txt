@@ -1,21 +1,58 @@
 # Part 1
 ### a)
 
-
+ggrep rill forest/filescan_00.1
+ggrep toise forest/filescan_00.1
+ggrep erfree forest/filescan_00.1
+ggrep asaur forest/filescan_00.1
+ggrep izard forest/filescan_00.2
+ggrep mander forest/filescan_00.2
+ggrep meleon forest/filescan_00.2
+ggrep aur forest/filescan_00.3
+ggrep lypuff forest/filescan_00.3
+ggrep th forest/filescan_00.3
+ggrep chu forest/filescan_00.3
+ggrep uck forest/filescan_00.4
+ggrep ^wart forest/filescan_00.4
+ggrep ^squi forest/filescan_00.4
+ggrep saur forest/filescan_00.4
 
 
 ### b)
 
+ggrep rill forest/filescan_00.1 > captured/beedrill.txt
+ggrep toise forest/filescan_00.1 > captured/blastoise.txt
+ggrep erfree forest/filescan_00.1 > captured/butterfree.txt
+ggrep asaur forest/filescan_00.1 > captured/bulbasaur.txt
+ggrep izard forest/filescan_00.2 > captured/charizard.txt
+ggrep mander forest/filescan_00.2 > captured/charmander.txt
+ggrep meleon forest/filescan_00.2 > captured/charmeleon.txt
+ggrep aur forest/filescan_00.3 > captured/ivysaur.txt
+ggrep lypuff forest/filescan_00.3 > captured/jigglypuff.txt
+ggrep th forest/filescan_00.3 > captured/meowth.txt
+ggrep chu forest/filescan_00.3 > captured/pikachu.txt
+ggrep uck forest/filescan_00.4 > captured/psyduck.txt
+ggrep ^wart forest/filescan_00.4 > captured/wartortle.txt
+ggrep saur forest/filescan_00.4 > captured/venusaur.txt
 
 
 ### c)
 
 
-
-
-
-
-
+filescan_00.1 > beedrill
+filescan_00.1 > blastoise
+filescan_00.1 > butterfree
+filescan_00.1 > bulbasaur
+filescan_00.2 > charizard
+filescan_00.2 > charmander
+filescan_00.2 > charmeleon
+filescan_00.3 > ivysaur
+filescan_00.3 > jigglypuff
+filescan_00.3 > meowth
+filescan_00.3 > pikachu
+filescan_00.4 > psyduck
+filescan_00.4 > wartortle
+filescan_00.4 > venusaur
 
 
 
@@ -25,7 +62,7 @@
 # Part 2
 ### a)
 
-
+:captured jkocher$ grep -l [abcdefghijklmnopqrstuvwxyz] * | wc -l 
 
 
 
@@ -33,6 +70,33 @@
 ### b)
 
 
-
+grep -l .  * | wc -l beedrill.txt
+      40 beedrill.txt
+grep -l .  * | wc -l blastoise.txt
+      38 blastoise.txt
+grep -l .  * | wc -l bulbasaur.txt
+      30 bulbasaur.txt
+grep -l .  * | wc -l butterfree.txt
+      38 butterfree.txt
+grep -l .  * | wc -l charizard.txt
+      40 charizard.txt
+grep -l .  * | wc -l charmander.txt
+      36 charmander.txt
+grep -l .  * | wc -l ivysaur.txt
+      33 ivysaur.txt
+grep -l .  * | wc -l jigglypuff.txt
+      34 jigglypuff.txt
+grep -l .  * | wc -l meowth.txt
+      33 meowth.txt
+grep -l .  * | wc -l pikachu.txt
+      40 pikachu.txt
+grep -l .  * | wc -l psyduck.txt
+      37 psyduck.txt
+grep -l .  * | wc -l squirtle.txt
+      34 squirtle.txt
+grep -l .  * | wc -l venusaur.txt
+      32 venusaur.txt
+grep -l .  * | wc -l wartortle.txt
+      71 wartortle.txt
 
 
